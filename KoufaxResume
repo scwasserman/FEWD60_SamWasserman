@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Resume</title>
+	    <link rel="stylesheet" href="resume.css"
+</head>
+
+<style>
+	h1{
+		color: white;
+		text-align: center;
+	}
+</style>
+
+<body>
+
+<div id="section1">
+<h1>SANDY KOUFAX</h1>
+<span><img src="assignment1/asset/KoufaxNH.jpg"><span>
+<p>Brooklyn/Los Angeles Dodgers<p>
+</div>
+
+<div id="section2">
+<table style=width:90%>
+<tr>
+	<td>
+		<h1>Biography</h1>
+	</td>
+	<td>
+		<h1>Accomplishments</h1>
+	</td>
+</tr>
+<tr>
+	<td>
+		<ul>
+			<li>Born December 30, 1935 in Brooklyn, NY</li>
+			<li>Played for the Brooklyn/Los Angeles Dodgers from 1955-1966</li>
+			<li>Inducted into <a href="http://baseballhall.org/hof/koufax-sandy">Hall of Fame</a> 1971 - youngest player ever inducted.</li>
+		</ul>
+	</td>
+	<td>
+		<ul>
+			<li class="record">Four No-Hitters*</li>				
+			<li>One Perfect Game</li>
+			<li>MVP in 1963</li>
+			<li>382 strikeouts in 1965</li>
+			<li>Cy Young Award Winner 1963, 1965, 1966</li>
+			<li>11 Shutouts in 1963</li>
+			<li class="record"*>Two 18-strikout games</li>
+		</ul>
+	</td>
+</tr>
+
+</table>
+
+<footer>*Record at the time.</footer>
+
+</div>
+
+<div id="section3">
+	<h1>Praise for Sandy Koufax</h1>
+	<ul>
+		<li>"I can see how he won 25 games.  What I don't understand is how he lost five." <span class="speaker">- Yogi Berra</span></li>
+		<li>"Either he throws the fastest ball I've ever seen, or I'm going blind." <Span class="speaker">-Richie Ashburn</Span></li>
+		<li>"A foul ball was a moral victory." <span class="speaker">-Don Sutton</span></li>
+</div>
+
+</body>
+
+</html>	   

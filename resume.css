@@ -1,0 +1,40 @@
+#section1{
+	 	color: white;
+	    background: url(file:///Users/erwasser/Desktop/FEWD60_SamWasserman/assignment1/asset/diamond.jpg);
+	    background-size: cover;
+	    padding: 25px;
+	    text-align: center;
+	    font-size: 40px;
+	    }
+
+#section2{
+		color: silver;
+		background-color: blue;
+		text-align: left;
+		font-size: 15px;
+}
+
+footer {
+	color: red;
+	padding: 25px;
+}
+
+table td, table td {
+		vertical-align: top;
+}
+
+#section2 .record{
+	color: red;
+}
+
+#section3{
+		color: blue;
+		background-color: gray;
+		text-align: left;
+		padding: 25px;
+		font-size: 15px;
+}
+
+#section3 .speaker{
+	color: yellow;
+}
