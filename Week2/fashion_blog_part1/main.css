@@ -1,0 +1,97 @@
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2 {
+  display: inline;
+}
+
+h1 {
+  color: black;
+}
+
+h1 a{
+    color: red;
+}
+
+h2 {
+    color: gray;
+}
+
+h4 a{
+    color: red;
+    float: right;
+}
+
+h3 {
+  color: gray;
+}
+
+h2 a{
+  color: black;
+  text-align: left;
+}
+nav a{
+  
+  background-color: black;
+  color: white;
+  border: 1px white;
+  width: 16%;
+  padding: 10px 0px;
+  text-align: center;
+  border: 1px solid gray;
+  float: left;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+p {
+  font-weight: 100;
+  font-size: 14px
+}
+
+main {
+  background-color: yellow;
+  float: left;
+  width: 60%;
+}
+
+article {
+  border-bottom: 5px solid gray;
+}
+
+article:last-child {
+  background-color: green;
+}
+
+img {
+  width: 100%;
+}
+p:first-letter { 
+  float: left; color: gray; font-size: 75px; line-height: 60px; padding-top: 4px; padding-right: 8px; padding-left: 3px;}
+
+.rightside {
+  background-color: blue;
+  float: right;
+  width: 35%;
+  color: gray;
+  padding: 10px;
+}
+.rightside .advertise {
+  padding: 50px;
+  border: 1px solid gray;
+
+}

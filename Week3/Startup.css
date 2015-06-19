@@ -1,0 +1,92 @@
+header {
+  background: black;
+  border-bottom: 5px solid yellow;
+  color: white;
+}
+
+h1 {
+  color: yellow;
+  text-align: left;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 15px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+nav a{
+  padding: 10px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+h2 {
+  background: gray;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+h2 span:first-of-type {
+  text-decoration: line-through;
+  color: blue;
+}
+
+h2 span:last-of-type {
+  font-style: underline;
+
+}
+
+.first {
+  background: transparent
+  url(coworking.jpg)
+  no-repeat;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.first {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.box {
+  width: 30%;
+  height: 450px;
+  position: absolute;
+    top: 10px;
+    right: 10px;
+  border: 1px solid black;
+  background: rgba(255, 255, 255, .7);
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 5px;
+}
+
+p {
+  padding: 5px;
+}
+
+.profilebutton {
+  position: absolute;
+    bottom: 10px;
+  text-align: center;
+  padding: 10px 30px;
+  border: 1px;
+  background: yellow;
+  margin: 100px 50px;
+}
+.teaser > div {
+  display: inline-block;
+}

@@ -1,0 +1,30 @@
+getPlayer1 Choice (R, P, or S)
+get Player2 Choice (R, P, or S)
+Lines 1 and 2 simultaneous
+
+if getPlayer1 = R, and getPlayer2 = R
+  (then) repeat lines 1 and 2.
+ 
+if getPlayer1 = R, and getPlayer2 = P
+  (then) Player2 Wins
+
+if getPlayer1 = R, and getPlayer2 = S
+  (then) Player1 Wins
+
+if getPlayer1 = P, and getPlayer2 = R
+  (then) Player1 Wins
+
+if getPlayer1 = P, and getPlayer2 = P
+  (then) repeat lines 1 and 2
+
+if getPlayer1 = P, and getPlayer2 = S
+  (then) Player2 Wins
+
+if getPlayer1 = S, and getPlayer2 = R
+  (then) Player2 Wins
+
+if getPlayer1 = S, and getPlayer2 = P
+  (then) Player1 Wins
+
+if getPlayer1 = S, and getPlayer2 = S
+  (then) repeat lines 1 and 2
