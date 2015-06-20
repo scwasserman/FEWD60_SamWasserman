@@ -1,3 +1,16 @@
+<!--
+5 - Effort/completion
+5 - Code cleanliness
+4 - Overall command of material
+- You need to name your root file (homepage) index.html. It's especially important to save the file as .html. 
+5 - Leveraging skills learned (using responsive design, HTML/CSS/JS, plugins, etc..)
+
+19/20
+
+Excellent use of div and id to add styles. You are mixing up your different ways to add styles here (inline with you html, using the style tag, and a css link), best to just stick with the css file going forward. 
+
+
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,7 +35,7 @@
 </div>
 
 <div id="section2">
-<table style=width:90%>
+<table style=width:90%> <!--width should be in " " -->
 <tr>
 	<td>
 		<h1>Biography</h1>
